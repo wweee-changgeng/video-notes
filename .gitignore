@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+config.json
+*.mp4
+*.mkv
+*.flac
+*.wav
+*_notes/
+shots/
+!requirements.txt

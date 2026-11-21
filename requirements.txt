@@ -1,0 +1,14 @@
+﻿# 核心
+numpy>=1.26
+opencv-python-headless>=4.9
+librosa>=0.10
+faster-whisper>=1.0
+soundfile>=0.12
+Pillow>=10.0
+
+# Windows 硬字幕 OCR（Linux/macOS 上去掉这行，换成别的 OCR）
+winocr>=0.1 ; sys_platform == "win32"
+
+# 下载 B 站视频（可选）
+yt-dlp>=2024.1
+imageio-ffmpeg>=0.4
